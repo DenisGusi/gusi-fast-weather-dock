@@ -22,5 +22,13 @@
   "languages": [
     { "lang": "en", "name": "English", "path": "lang/en.json", "flags": {} },
     { "lang": "de", "name": "Deutsch", "path": "lang/de.json", "flags": {} }
-  ]
+  ],
+  "url": "https://github.com/DenisGusi/gusi-fast-weather-dock",
+  "manifest": "https://github.com/DenisGusi/gusi-fast-weather-dock/releases/download/v.1.0.1/module.json",
+  "download": "https://github.com/DenisGusi/gusi-fast-weather-dock/releases/download/v.1.0.1/gusi-fast-weather-dock-1.0.1.zip",
+  "license": "MIT",
+  "readme": "README.md",
+  "flags": {
+    "canUpload": true
+  }
 }

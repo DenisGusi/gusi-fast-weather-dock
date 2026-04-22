@@ -1,0 +1,12 @@
+<div class="gusi-fwd-content">
+  <div class="gusi-fwd-scene-info">
+    <i class="fa-solid fa-map"></i>
+    <span class="gusi-fwd-scene-name">{{sceneName}}</span>
+  </div>
+  <select name="weather" class="gusi-fwd-select">
+    <option value="">{{noneLabel}}</option>
+    {{#each effects}}
+    <option value="{{this.id}}" {{#if this.selected}}selected{{/if}}>{{this.label}}</option>
+    {{/each}}
+  </select>
+</div>

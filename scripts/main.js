@@ -213,18 +213,6 @@ Hooks.once("init", () => {
 Hooks.on("canvasReady", () => {
   if (!game.user.isGM) return;
 
-  const legacyPos = game.settings.get(MODULE_ID, "dockPosition");
-  const geometry = game.settings.get(MODULE_ID, "dockGeometry");
-  if ((geometry?.top == null || geometry?.left == null) && (legacyPos?.top != null || legacyPos?.left != null)) {
-    game.settings.set(MODULE_ID, "dockGeometry", {
-      ...geometry,
-      top: legacyPos.top,
-      left: legacyPos.left,
-      width: geometry?.width ?? 260,
-      height: geometry?.height ?? 145,
-    });
-  }
-
   _createToggleButton();
 
   if (game.settings.get(MODULE_ID, "dockCollapsed")) {

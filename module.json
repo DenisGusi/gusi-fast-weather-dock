@@ -2,7 +2,7 @@
   "id": "gusi-fast-weather-dock",
   "title": "Gusi's Fast Weather Dock",
   "description": "A compact, movable & collapsible dock for GMs to quickly change the weather effect of the current scene without opening Scene Settings.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": 14,
     "verified": 14
